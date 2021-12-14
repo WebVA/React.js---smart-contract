@@ -1,0 +1,40 @@
+export const STATUS = {
+  VALID: true,
+  INVALID: false,
+  PENDING: 0,
+  FULFILLED: 1,
+  REJECTED: 2,
+  SUCCESS: 200,
+  FAILED: 500,
+}
+
+export const ChatType = {
+  CHAT_SUPPORT: 1,
+  CHAT_PUBLIC: 2,
+}
+
+export const NotificationType = {
+  NOTIFICATION_ALL: 0,
+  NOTIFICATION_ACTIVE: 1,
+  NOTIFICATION_INACTIVE: 2,
+}
+
+export const Code = {
+  CODE_PUBLIC_CHAT: 1,
+  CODE_SUPPORT_MESSAGE: 2,
+  CODE_CLIENT_MESSAGE: 3,
+  CODE_BUY: 4,
+  CODE_SELL: 5,
+  CODE_PING: 6,
+  CODE_COIN_PAIR: 7,
+  CODE_TRADE_EVENT: 8,
+  CODE_COIN_PRICE: 9,
+  CODE_NOTIFICATION: 10,
+  CODE_ADMIN_CLIENT: 11,
+  CODE_CHAT_SEEN: 13,
+}
+
+export const ReadState = {
+  CHAT_STATUS_READ: 0,
+  CHAT_STATUS_UNREAD: 1,
+}
